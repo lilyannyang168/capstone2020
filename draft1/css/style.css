@@ -1,0 +1,180 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #EEFF30;
+  margin-bottom:100px;
+}
+
+h1 {
+  color: black;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+}
+h2{
+  olor: black;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  
+}
+p{
+  font-family: jaf-domus, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #FF93D1;
+  width:280px;
+}
+#arrow{
+  position: absolute;
+  left: 20px;
+  word-spacing: 100vw;
+  top: 1.5%;
+  text-align: right;
+}
+#title{
+  position: absolute;
+  left: 140px;
+  width: 200px;
+  word-spacing: 100vw;
+  top: 3%;
+  right: 10%;
+  text-align: right;
+}
+#image1{
+  width: 375px;
+  position: absolute;
+  left:0px;
+  top:35%;
+}
+#text1{
+  position: absolute;
+  top:68%;
+  align: center;
+  left: 47.5px;
+}
+#subtitle1{
+  width:100px;
+  position: absolute;
+  top: 135%;
+  left: 137.5px;
+}
+#text2{
+  position: absolute;
+  top:145%;
+  align: center;
+  left: 47.5px;
+}
+img.rushmore{
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  left: 0%;
+  top: 85%;
+}
+img.gump{
+  position: absolute;
+  height: 40%;
+  width: 140%;
+  left: -30%;
+  top: 149%;
+}
+img.leo{
+  position: absolute;
+  height: 65%;
+  width: 100%;
+  left: 0%;
+  top: 187%;
+}
+img.hepburn{
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  left: 0%;
+  top: 250%;
+}
+#text3{
+  position: absolute;
+  top:305%;
+  align: center;
+  left: 47.5px;
+}
+img.tom{
+  position: absolute;
+  height: 65%;
+  width: 100%;
+  left: 0%;
+  top: 300%;
+}
+img.mj{
+  position: absolute;
+  height: 65%;
+  width: 40%;
+  left: 5%;
+  top: 330%;
+}
+img.twilight{
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  left: 50%;
+  top: 330%;
+}
+#subtitle2{
+  width:50%px;
+  position: absolute;
+  top: 395%;
+  left: 25%;
+}
+img.locations{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 405%;
+}
+#subtitle3{
+  width:50%px;
+  position: absolute;
+  top: 440%;
+  left: 25%;
+}
+img.hollywood{
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 448%;
+}
+.button {
+  height: 5%;
+  width: 60%;
+  background-color: #FF93D1;
+  position: absolute;
+  top: 475%;
+  left: 20%;
+}
+#button{
+  width: 60%;
+  position: absolute;
+  top: 473.5%;
+  left: 28%;
+  color: #EEFF30;
+  font-size: 20px;
+}
+.bottom {
+  height: 5%;
+  width: 60%;
+  background-color: #EEFF30;
+  position: absolute;
+  top: 480%;
+  left: 20%;
+}
+
+
+
+
+
+
+
