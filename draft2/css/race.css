@@ -1,0 +1,200 @@
+body {
+  margin: 2em;
+  background-color: #FDFCEE;
+  margin-bottom:100px;
+}
+
+h1 {
+  color: #FF93D1;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+}
+h2{
+  color: #FF93D1;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+p{
+  font-family: jaf-domus, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  width:280px;
+}
+#arrow{
+  position: absolute;
+  left: 2%;
+  word-spacing: 8vw;
+  top: 1.5%;
+  text-align: right;
+}
+#title{
+  position: absolute;
+  left: -5%;
+  width: 100%;
+  word-spacing: 2vw;
+  top: 3%;
+  right: 10%;
+  text-align: right;
+}
+#image1{
+  position: absolute;
+  width: 100%;
+  left:0%;
+  top:28%;
+}
+#text1{
+  position: absolute;
+  top: 50%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+img.car{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
+#subtitle1{
+  width:80%;
+  position: absolute;
+  top: 69%;
+}
+#text2{
+  position: absolute;
+  top: 76%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+img.vroom{
+  width: 95%;
+  position: absolute;
+  left: 2.5%;
+  top: 90%;
+}
+#subtitle2{
+  width:80%;
+  position: absolute;
+  top: 115%;
+}
+#text3{
+  position: absolute;
+  top: 122%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+img.place1{
+  width: 50%;
+  position: absolute;
+  left: 0%;
+  top: 132%;
+}
+img.place2{
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  top: 150%;
+}
+img.place3{
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 165%;
+}
+#subtitle3{
+  width:80%;
+  position: absolute;
+  top: 194%;
+}
+#text4{
+  position: absolute;
+  top: 201%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+img.sign{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 215%;
+}
+img.balloon{
+  width: 60%;
+  position: absolute;
+  left: 34%;
+  top: 245%;
+}
+img.clown{
+  width: 60%;
+  position: absolute;
+  left: 4%;
+  top: 260%;
+}
+img.dog{
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  top: 283%;
+}
+img.gas{
+  width: 70%;
+  position: absolute;
+  left: 3%;
+  top: 302%;
+}
+img.dino{
+  width: 70%;
+  position: absolute;
+  left: 30%;
+  top: 320%;
+}
+img.sign2{
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 335%;
+}
+.button {
+  height: 5%;
+  width: 60%;
+  background-color: #FF93D1;
+  position: absolute;
+  top: 370%;
+  left: 20%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+#button{
+  width: 60%;
+  position: absolute;
+  top: 369%;
+  left: 30%;
+  color: black;
+  font-size: 20px;
+}
+.bottom {
+  height: 5%;
+  width: 60%;
+  background-color: #FDFCEE;
+  position: absolute;
+  top: 375%;
+  left: 20%;
+}
+
+
+
+
+
+
+
+
