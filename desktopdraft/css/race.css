@@ -1,0 +1,276 @@
+body {
+  margin: 2em;
+  background-color: #FDFCEE;
+  margin-bottom:100px;
+}
+
+h1 {
+  color: #FF93D1;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80px;
+}
+h2{
+  color: #FB170F;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+}
+h3{
+  color: #04067B;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  font-family: courier-prime, monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  width:280px;
+  font-size:15px;
+}
+.block {
+  height: 100%;
+  width: 100%;
+  left:0%;
+/*  background-color: pink;*/
+  background-color: #EEFF30;
+  position: absolute;
+  top: 1100%;
+}
+#arrow{
+  position: absolute;
+  width:70%;
+  left:15%;
+  top: -12%;
+  text-align: right;
+  transform: rotate(90deg);
+  font-size:30px;
+}
+#image0{
+  position: absolute;
+  width: 100%;
+  left:0%;
+  top:5%;
+}
+#title{
+  position: absolute;
+  left:0%;
+  width: 100%;
+  word-spacing: 1vw;
+  top: 2.5%;
+  text-align: center;
+}
+#image1{
+  position: absolute;
+  width: 100%;
+  left:0%;
+  top:78%;
+}
+#text1{
+  position: absolute;
+  top: 32%;
+  width: 50%;
+  left: 25%;
+  text-align: left;
+}
+img.car{
+  width:50%;
+  position: absolute;
+  left: 25%;
+  top: 60%;
+}
+img.building{
+  width:25%;
+  position: absolute;
+  left: 25%;
+  top: 42%;
+}
+#subtitle1{
+  width:60%;
+  left:20%;
+  position: absolute;
+  top: 103%;
+  text-align:left;
+}
+#text2{
+  position: absolute;
+  top: 116%;
+  width: 50%;
+  left: 25%;
+  text-align: left;
+}
+img.vroom{
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  top: 133%;
+}
+#text2b{
+  position: absolute;
+  top: 264%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#subtitle2{
+  width:80%;
+  left:10%;
+  position: absolute;
+  top: 185%;
+}
+#text3{
+  position: absolute;
+  top: 335%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#text3b{
+  position: absolute;
+  top: 360%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+img.place1{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 400%;
+}
+#place1caption{
+  left:12.5%;
+  width:75%;
+  position: absolute;
+  top: 460%;
+}
+img.place2{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 500%;
+}
+#place2caption{
+  left:12.5%;
+  width:75%;
+  position: absolute;
+  top: 555%;
+}
+img.place3{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 600%;
+}
+#place3caption{
+  left:12.5%;
+  width:75%;
+  position: absolute;
+  top: 676%;
+}
+#subtitle3{
+  left:10%;
+  width:80%;
+  position: absolute;
+  top: 702%;
+}
+#text4{
+  position: absolute;
+  top: 718%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+
+img.sign{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 750%;
+}
+img.balloon{
+  height:50%;
+  position: absolute;
+  left: 10%;
+  top: 805%;
+}
+img.clown{
+  width: 80%;
+  position: absolute;
+  left: 8%;
+  top: 860%;
+}
+img.gas{
+  height:40%;
+  position: absolute;
+  left: 3%;
+  top: 910%;
+}
+img.dino{
+  width: 100%;
+  position: absolute;
+  left: 10%;
+  top: 960%;
+}
+img.dog{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 1010%;
+}
+img.sign2{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 1050%;
+}
+#text4b{
+  position: absolute;
+  top: 1110%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#conclusion{
+  position: absolute;
+  top: 1142%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+
+.button {
+  height: 5%;
+  width: 60%;
+  background-color: #04067B;
+  position: absolute;
+  top: 1185%;
+  left: 20%;
+  border-style: solid;
+  border-width: 5px;
+  border-color:  #FB170F;
+}
+h3{
+  width: 60%;
+  position: absolute;
+  top: 1184%;
+  left: 20%;
+  font-size: 20px;
+  color: #EEFF30;
+}
+
+
+
+
+
+
+
+
+
