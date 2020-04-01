@@ -1,0 +1,167 @@
+body {
+  margin: 2em;
+  background-color: #FF93D1;
+  margin-bottom:100px;
+}
+
+h1 {
+  color: #EEFF30;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+}
+h2{
+  color: #EEFF30;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  
+}
+p{
+  font-family: jaf-domus, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  width:280px;
+}
+#arrow{
+  position: absolute;
+  left: 2%;
+  word-spacing: 100vw;
+  top: 1.5%;
+  text-align: right;
+}
+#title{
+  position: absolute;
+  left: -5%;
+  width: 100%;
+  word-spacing: 14vw;
+  top: 3%;
+  right: 10%;
+  text-align: right;
+}
+#image1{
+  position: absolute;
+  width: 100%;
+  left:0%;
+  top:35%;
+}
+#text1{
+  position: absolute;
+  top: 65%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#subtitle1{
+  width:80%;
+  position: absolute;
+  top: 78%;
+}
+#text2{
+  position: absolute;
+  top: 85%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#gator{
+  position: absolute;
+  top: 90%;
+  width: 90%;
+  left: 5%;
+  text-align: left;
+}
+#subtitle2{
+  width:80%;
+  position: absolute;
+  top: 116%;
+}
+#text3{
+  position: absolute;
+  top: 123%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#america{
+  position: absolute;
+  top: 130%;
+  width: 60%;
+  left: 25%;
+  text-align: left;
+}
+#bear{
+  position: absolute;
+  top: 150%;
+  width: 47%;
+  left: 1%;
+  text-align: left;
+}
+#subtitle3{
+  width:80%;
+  position: absolute;
+  top: 177%;
+}
+#sale{
+  position: absolute;
+  top: 182%;
+  width: 70%;
+  left: 15%;
+  text-align: left;
+}
+#towels{
+  position: absolute;
+  top: 210%;
+  width: 110%;
+  left: -5%;
+  text-align: left;
+}
+#weird{
+  position: absolute;
+  top: 226%;
+  width: 90%;
+  left: 5%;
+  text-align: left;
+}
+.button {
+  height: 5%;
+  width: 60%;
+  background-color: black;
+  position: absolute;
+  top: 276%;
+  left: 20%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FDFCEE;
+}
+#button{
+  width: 60%;
+  position: absolute;
+  top: 275%;
+  left: 30%;
+  color: #FDFCEE;
+  font-size: 20px;
+}
+.bottom {
+  height: 5%;
+  width: 60%;
+  background-color: #FF93D1;
+  position: absolute;
+  top: 281%;
+  left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
