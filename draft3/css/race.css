@@ -1,0 +1,301 @@
+body {
+  margin: 2em;
+  background-color: #FDFCEE;
+  margin-bottom:100px;
+}
+
+h1 {
+  color: #FF93D1;
+/*color: black;*/
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 44px;
+}
+h2{
+  color: #FB170F;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 54px;
+  text-align: center;
+}
+h3{
+  color: #04067B;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  color: black;
+  width:280px;
+  font-size:19px;
+  font-family: agenda, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes moveup {
+    from { top: 10%; }
+    to   { top: 5%; }
+}
+@-webkit-keyframes moveup2 {
+    from { top: 35%; }
+    to   { top: 30%; }
+}
+@-webkit-keyframes moveup3 {
+    from { top: 72%; }
+    to   { top: 67%; }
+}
+.block {
+  height: 100%;
+  width: 100%;
+  left:0%;
+/*  background-color: pink;*/
+  background-color: #EEFF30;
+  position: absolute;
+  top: 1100%;
+}
+#x{
+  position: absolute;
+  width:3%;
+  left:10%;
+  top: 1%;
+  text-align: right;
+/*  transform: rotate(90deg);*/
+  font-family: bilo, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+  transform: scale(1.3, 1);
+  color: black;
+  -webkit-animation: fadein 3s;
+}
+#title{
+  position: absolute;
+  left:15%;
+  width: 70%;
+  word-spacing: 1vw;
+  text-align: center;
+  line-height: 1.3;
+  -webkit-animation: fadein 1s;
+  -webkit-animation: moveup 1s;
+  animation-fill-mode: forwards;  
+}
+img.building{
+  position: absolute;
+  width: 100%;
+  left:0%;
+  -webkit-animation: fadein 2s;
+  -webkit-animation: moveup2 2s;
+  animation-fill-mode: forwards;  
+}
+
+#text1{
+  position: absolute;
+  width: 85%;
+  left: 7.5%;
+  text-align: left;
+  -webkit-animation: fadein 3s;
+  -webkit-animation: moveup3 3s;
+  animation-fill-mode: forwards;  
+}
+img.car{
+  height: 40%;
+  position: absolute;
+  left: -10%;
+  top: 95%;
+  opacity:0;
+}
+#subtitle1{
+  width:80%;
+  left:10%;
+  position: absolute;
+  top: 130%;
+  opacity: 0;
+}
+#text2{
+  position: absolute;
+  top: 218%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+img.vroom{
+  width: 75%;
+  position: absolute;
+  left: 12.5%;
+  top: 243%;
+  opacity:0;
+}
+#text2b{
+  position: absolute;
+  top: 264%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#subtitle2{
+  width:80%;
+  left:10%;
+  position: absolute;
+  top: 303%;
+}
+#text3{
+  position: absolute;
+  top: 335%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#text3b{
+  position: absolute;
+  top: 360%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+img.place1{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 400%;
+  opacity: 0;
+}
+#place1caption{
+  left:12.5%;
+  width:75%;
+  position: absolute;
+  top: 460%;
+}
+img.place2{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 500%;
+  opacity: 0;
+}
+#place2caption{
+  left:12.5%;
+  width:75%;
+  position: absolute;
+  top: 555%;
+}
+img.place3{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 600%;
+  opacity: 0;
+}
+#place3caption{
+  left:12.5%;
+  width:75%;
+  position: absolute;
+  top: 676%;
+}
+#subtitle3{
+  left:10%;
+  width:80%;
+  position: absolute;
+  top: 702%;
+}
+#text4{
+  position: absolute;
+  top: 718%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+
+img.sign{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 750%;
+}
+img.balloon{
+  height:50%;
+  position: absolute;
+  left: 10%;
+  top: 805%;
+}
+img.clown{
+  width: 80%;
+  position: absolute;
+  left: 8%;
+  top: 860%;
+}
+img.gas{
+  height:40%;
+  position: absolute;
+  left: 3%;
+  top: 910%;
+}
+img.dino{
+  width: 100%;
+  position: absolute;
+  left: 10%;
+  top: 960%;
+}
+img.dog{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 1010%;
+}
+img.sign2{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 1050%;
+}
+#text4b{
+  position: absolute;
+  top: 1110%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+#conclusion{
+  position: absolute;
+  top: 1142%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+}
+
+.button {
+  height: 5%;
+  width: 60%;
+  background-color: #04067B;
+  position: absolute;
+  top: 1185%;
+  left: 20%;
+  border-style: solid;
+  border-width: 5px;
+  border-color:  #FB170F;
+}
+h3{
+  width: 60%;
+  position: absolute;
+  top: 1184%;
+  left: 20%;
+  font-size: 20px;
+  color: #EEFF30;
+}
+
+
+
+
+
+
+
+
+
