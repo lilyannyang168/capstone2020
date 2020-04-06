@@ -41,7 +41,7 @@ p{
   background-color: black;
   position: absolute;
   top: 300%;
-  opacity:1;
+  opacity:0;
 }
 #x{
   position: absolute;
@@ -58,13 +58,13 @@ p{
   color: white;
   -webkit-animation: fadein 1s;
 }
-#arrow{
+/*#arrow{
   position: absolute;
   left: 2%;
   word-spacing: 100vw;
   top: 1.5%;
   text-align: right;
-}
+}*/
 @-webkit-keyframes moveup {
     from { top: 10%; }
     to   { top: 5%; }
@@ -149,22 +149,26 @@ p{
 }
 #subtitle2{
   width:80%;
+  left:10%;
   position: absolute;
-  top: 116%;
+  top: 313%;
+  opacity: 0;
 }
 #text3{
   position: absolute;
-  top: 123%;
+  top: 327%;
   width: 75%;
   left: 12.5%;
   text-align: left;
+  opacity: 0;
 }
 #america{
   position: absolute;
-  top: 130%;
-  width: 60%;
-  left: 25%;
-  text-align: left;
+  top: 350%;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+  opacity: 0;
 }
 #bear{
   position: absolute;
