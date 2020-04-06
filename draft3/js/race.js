@@ -30,8 +30,8 @@ $(document).ready(function() {
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
                 
-                $(this).animate({'opacity':'1'},300);
-                $(this).animate({'top': '90%'},300);
+                $(this).animate({'opacity':'1'},450);
+                $(this).animate({'top': '125%'},450);
 
                     
             }
@@ -48,7 +48,7 @@ $(document).ready(function() {
             if( bottom_of_window > bottom_of_object ){
                 
                 $(this).animate({'opacity':'1'},400);
-                $(this).animate({'top': '126%'},400);
+                $(this).animate({'top': '106%'},400);
 
                     
             }
@@ -64,12 +64,32 @@ $(document).ready(function() {
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
                 
-                $(this).animate({'opacity':'1'},300);
-                $(this).animate({'top': '240%'},300);
+                $(this).animate({'opacity':'1'},400);
+                $(this).animate({'top': '210%'},400);
                     
             }
             
         }); 
+
+
+                    $('#text2').each( function(i){
+
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height() + 500;
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                $(this).animate({'top': '170%'},500);
+
+                    
+            }
+            
+        }); 
+
+
 
                         $('.place1').each( function(i){
             
