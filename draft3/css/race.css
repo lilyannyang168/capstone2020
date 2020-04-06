@@ -52,6 +52,7 @@ p{
   opacity:0;
 }
 #x{
+
   position: absolute;
   width:3%;
   left:10%;
@@ -126,6 +127,7 @@ img.car{
   width: 75%;
   left: 12.5%;
   text-align: left;
+  opacity:0;
 }
 img.vroom{
   width: 85%;
@@ -140,19 +142,21 @@ img.vroom{
   width: 75%;
   left: 12.5%;
   text-align: left;
+  opacity:0;
 }
 img.bumper{
   width: 85%;
   position: absolute;
   left: 7.5%;
   top: 260%;
-  opacity:1;
+  opacity:0;
 }
 #subtitle2{
   width:80%;
   left:10%;
   position: absolute;
   top: 313%;
+  opacity:0;
 }
 #text3{
   position: absolute;
@@ -160,6 +164,7 @@ img.bumper{
   width: 75%;
   left: 12.5%;
   text-align: left;
+  opacity:0;
 }
 img.place1{
   width: 85%;
@@ -174,6 +179,7 @@ img.place1{
   width: 75%;
   left: 12.5%;
   text-align: left;
+  opacity:0;
 }
 /*img.place2{
   width: 100%;
@@ -194,6 +200,7 @@ img.place3{
   width:80%;
   position: absolute;
   top: 513%;
+  opacity:0;
 }
 #text4{
   position: absolute;
@@ -201,6 +208,7 @@ img.place3{
   width: 75%;
   left: 12.5%;
   text-align: center;
+  opacity:0;
 }
 
 img.sign{
