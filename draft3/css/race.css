@@ -21,7 +21,7 @@ h2{
   text-align: center;
 }
 h3{
-  color: #04067B;
+  color: #FF93D1;
   font-family: chippewa-falls, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -48,7 +48,8 @@ p{
 /*  background-color: pink;*/
   background-color: #EEFF30;
   position: absolute;
-  top: 200%;
+  top: 815%;
+  opacity:0;
 }
 #x{
   position: absolute;
@@ -130,132 +131,128 @@ img.vroom{
   width: 85%;
   position: absolute;
   left: 7.5%;
-  top: 215%;
+  top: 210%;
   opacity:0;
 }
 #text2b{
   position: absolute;
-  top: 264%;
+  top: 237%;
   width: 75%;
   left: 12.5%;
   text-align: left;
+}
+img.bumper{
+  width: 85%;
+  position: absolute;
+  left: 7.5%;
+  top: 260%;
+  opacity:1;
 }
 #subtitle2{
   width:80%;
   left:10%;
   position: absolute;
-  top: 303%;
+  top: 313%;
 }
 #text3{
   position: absolute;
-  top: 335%;
-  width: 75%;
-  left: 12.5%;
-  text-align: left;
-}
-#text3b{
-  position: absolute;
-  top: 360%;
+  top: 327%;
   width: 75%;
   left: 12.5%;
   text-align: left;
 }
 img.place1{
-  width: 100%;
+  width: 85%;
   position: absolute;
-  left: 0%;
-  top: 400%;
+  left: 7.5%;
+  top: 358%;
   opacity: 0;
 }
-#place1caption{
-  left:12.5%;
-  width:75%;
+#text3b{
   position: absolute;
-  top: 460%;
+  top: 410%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
 }
-img.place2{
+/*img.place2{
   width: 100%;
   position: absolute;
   left: 0%;
   top: 500%;
   opacity: 0;
-}
-#place2caption{
-  left:12.5%;
-  width:75%;
-  position: absolute;
-  top: 555%;
-}
+}*/
 img.place3{
-  width: 100%;
+  width: 85%;
+  left: 7.5%;
   position: absolute;
-  left: 0%;
-  top: 600%;
+  top: 450%;
   opacity: 0;
-}
-#place3caption{
-  left:12.5%;
-  width:75%;
-  position: absolute;
-  top: 676%;
 }
 #subtitle3{
   left:10%;
   width:80%;
   position: absolute;
-  top: 702%;
+  top: 513%;
 }
 #text4{
   position: absolute;
-  top: 718%;
+  top: 530%;
   width: 75%;
   left: 12.5%;
-  text-align: left;
+  text-align: center;
 }
 
 img.sign{
   width: 90%;
   position: absolute;
   left: 5%;
-  top: 750%;
+  top: 545%;
+  opacity: 0;
 }
 img.balloon{
-  height:50%;
+  width: 85%;
   position: absolute;
-  left: 10%;
-  top: 805%;
+  left: 7.5%;
+  top: 610%;
+  opacity: 0;
 }
 img.clown{
-  width: 80%;
+  width: 86%;
   position: absolute;
-  left: 8%;
-  top: 860%;
+  left: 7.5%;
+  top: 659%;
+  opacity: 0;
 }
 img.gas{
-  height:40%;
-  position: absolute;
-  left: 3%;
-  top: 910%;
-}
-img.dino{
-  width: 100%;
+  width: 80%;
   position: absolute;
   left: 10%;
-  top: 960%;
+  top: 715%;
+  opacity: 0;
+}
+img.dino{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 765%;
+  opacity: 0;
 }
 img.dog{
   width: 90%;
   position: absolute;
   left: 5%;
-  top: 1010%;
+  top: 815%;
+  opacity: 0;
 }
 img.sign2{
   width: 90%;
   position: absolute;
   left: 5%;
-  top: 1050%;
+  top: 855%;
+  opacity: 0;
 }
-#text4b{
+/*#text4b{
   position: absolute;
   top: 1110%;
   width: 75%;
@@ -268,27 +265,36 @@ img.sign2{
   width: 75%;
   left: 12.5%;
   text-align: left;
+}*/
+@-webkit-keyframes scale {
+  from { scale: 1.0; }
+  to   { scale: 3.0; }
 }
 
-.button {
-  height: 5%;
+
+ @keyframes heartFadeInOut {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1);}
+}
+
+h3 {
+/*  height: 5%;*/
   width: 60%;
-  background-color: #04067B;
+/*  background-color: #04067B;*/
   position: absolute;
-  top: 1185%;
+  top: 900%;
   left: 20%;
-  border-style: solid;
+  animation-name: heartFadeInOut; 
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+/*  -webkit-animation: heartbeat 3s;*/
+/*  border-style: solid;
   border-width: 5px;
-  border-color:  #FB170F;
+  border-color:  #FB170F;*/
 }
-h3{
-  width: 60%;
-  position: absolute;
-  top: 1184%;
-  left: 20%;
-  font-size: 20px;
-  color: #EEFF30;
-}
+
+
 
 
 
