@@ -9,7 +9,7 @@ h1 {
   font-family: chippewa-falls, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 44px;
+  font-size: 78px;
 }
 h2{
   color: #EEFF30;
@@ -19,6 +19,14 @@ h2{
   font-size: 38px;
   text-align: center;
   
+}
+h3{
+  color: #EEFF30;
+  font-family: chippewa-falls, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
 }
 p{
   color: white;
@@ -33,15 +41,35 @@ p{
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-.block {
-  height: 100%;
+.block1 {
+  height: 300%;
   width: 100%;
   left:0%;
 /*  background-color: pink;*/
   background-color: black;
   position: absolute;
-  top: 300%;
-  opacity:0;
+  top:200%;
+  opacity:1;
+}
+.block2 {
+  height: 300%;
+  width: 100%;
+  left:0%;
+/*  background-color: pink;*/
+  background-color: #FB170F;
+  position: absolute;
+  top:500%;
+  opacity:1;
+}
+.block3 {
+  height: 300%;
+  width: 100%;
+  left:0%;
+/*  background-color: pink;*/
+  background-color: black;
+  position: absolute;
+  top:800%;
+  opacity:1;
 }
 #x{
   position: absolute;
@@ -66,8 +94,8 @@ p{
   text-align: right;
 }*/
 @-webkit-keyframes moveup {
-    from { top: 10%; }
-    to   { top: 5%; }
+    from { top: 18%; }
+    to   { top: 13%; }
 }
 #title{
   position: absolute;
@@ -80,23 +108,18 @@ p{
   -webkit-animation: moveup 1s;
   animation-fill-mode: forwards;  
 }
-@-webkit-keyframes moveup2 {
-    from { top: 37%; }
-    to   { top: 32%; }
-}
+
 #image1{
+  width: 85%;
   position: absolute;
-  width: 100%;
-  left:0%;
+  left: 7.5%;
   top:35%;
   -webkit-animation: fadein 2s;
-  -webkit-animation: moveup2 2s;
   animation-fill-mode: forwards;  
+  top: 118%;
+  opacity: 0%;
 }
-@-webkit-keyframes moveup3 {
-    from { top: 72%; }
-    to   { top: 67%; }
-}
+
 #text1{
   position: absolute;
   top: 65%;
@@ -104,15 +127,16 @@ p{
   left: 12.5%;
   text-align: left;
   -webkit-animation: fadein 3s;
-  -webkit-animation: moveup3 3s;
   animation-fill-mode: forwards;  
+  top: 158%;
+  opacity: 0%;
 }
 #subtitle1{
   width:80%;
   left:10%;
   position: absolute;
-  top: 113%;
-  opacity: 0;
+  top: 250%;
+  opacity: 0%;
 }
 #gator{
   position: absolute;
@@ -120,12 +144,12 @@ p{
   left: 5%;
   text-align: left;
   position: absolute;
-  top: 130%;
+  top: 320%;
   opacity:0;
 }
 #text2{
   position: absolute;
-  top: 168%;
+  top: 363%;
   width: 75%;
   left: 12.5%;
   text-align: left;
@@ -136,14 +160,14 @@ p{
   left: 5%;
   text-align: left;
   position: absolute;
-  top: 220%;
+  top: 420%;
   opacity:0;
 }
 #text2b{
   position: absolute;
   width: 75%;
   left: 12.5%;
-  top: 265%;
+  top: 465%;
   text-align: left;
   opacity: 0;
 }
@@ -151,12 +175,12 @@ p{
   width:80%;
   left:10%;
   position: absolute;
-  top: 313%;
-  opacity: 0;
+  top: 550%;
+  opacity: 0%;
 }
 #text3{
   position: absolute;
-  top: 327%;
+  top: 620%;
   width: 75%;
   left: 12.5%;
   text-align: left;
@@ -164,7 +188,7 @@ p{
 }
 #america{
   position: absolute;
-  top: 350%;
+  top: 730%;
   width: 80%;
   left: 10%;
   text-align: center;
@@ -172,38 +196,42 @@ p{
 }
 #bear{
   position: absolute;
-  top: 150%;
-  width: 47%;
-  left: 1%;
+  top: 647%;
+  width: 80%;
+  left: 10%;
   text-align: left;
+  opacity: 0;
 }
 #subtitle3{
   width:80%;
+  left:10%;
   position: absolute;
-  top: 177%;
+  top: 850%;
+  opacity: 0%;
 }
 #sale{
   position: absolute;
-  top: 182%;
+  top: 922%;
   width: 70%;
   left: 15%;
-  text-align: left;
+  opacity: 0;
 }
 #towels{
   position: absolute;
-  top: 210%;
+  top: 975%;
   width: 110%;
   left: -5%;
-  text-align: left;
+  opacity: 0;
 }
 #weird{
   position: absolute;
-  top: 226%;
+  top: 1020%;
   width: 90%;
   left: 5%;
   text-align: left;
+  opacity: 0;
 }
-.button {
+/*.button {
   height: 5%;
   width: 60%;
   background-color: black;
@@ -229,6 +257,33 @@ p{
   position: absolute;
   top: 281%;
   left: 20%;
+}*/
+@-webkit-keyframes scale {
+  from { scale: 1.0; }
+  to   { scale: 3.0; }
+}
+
+
+ @keyframes heartFadeInOut {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1);}
+}
+
+h3 {
+/*  height: 5%;*/
+  width: 60%;
+/*  background-color: #04067B;*/
+  position: absolute;
+  top: 1080%;
+  left: 20%;
+  animation-name: heartFadeInOut; 
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+/*  -webkit-animation: heartbeat 3s;*/
+/*  border-style: solid;
+  border-width: 5px;
+  border-color:  #FB170F;*/
 }
 
 
