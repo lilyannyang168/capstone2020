@@ -150,7 +150,6 @@ p{
   position: absolute;
   left: 7.5%;
   top:35%;
-  -webkit-animation: fadein 2s;
   animation-fill-mode: forwards;  
   top: 118%;
   opacity: 0%;
@@ -191,6 +190,7 @@ p{
   left: 12.5%;
   text-align: left;
   color: white;
+  opacity: 0;
 }
 #live{
   position: absolute;
