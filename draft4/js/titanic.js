@@ -13,7 +13,7 @@ $(document).ready(function() {
             if( bottom_of_window > bottom_of_object ){
                 
                 $(this).animate({'opacity':'1'},400);
-                $(this).animate({'top': '113%'},400);
+                $(this).animate({'top': '107%'},400);
 
                     
             }
