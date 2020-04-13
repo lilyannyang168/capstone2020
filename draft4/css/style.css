@@ -1,4 +1,4 @@
-
+/*
 body {
   background-color: #EEFF30;
 }
@@ -9,43 +9,43 @@ img.map{
   left: -10%;
   top: 0%;
   opacity:0%;
-}
-img.tn{
+}*/
+/*img.tn{
   position: absolute;
-  width: 210%;
+  width: 13%;
   left: -120%;
   top: 15%;
   opacity:100%;
-}
+}*/
 img.race{
   position: absolute;
-  left: 7%;
-  top: 23%;
-  width:37%;
+  left: 55%;
+  top: 15%;
+  width: 20%;
 }
 img.alligator{
   position: absolute;
-  left: 45%;
-  top: 26%;
-  width:37%;
+  left: 73%;
+  top: 23%;
+  width: 20%;
 }
 img.hollywood{
   position: absolute;
-  left: 48%;
-  top: 44%;
-  width:37%;
+  left: 60%;
+  top: 30%;
+  width: 20%;
 }
 img.wonder{
   position: absolute;
-  left: 15%;
-  top: 51%;
-  width:37%;
+  left: 38%;
+  top: 28%;
+  width: 20%;
 }
 img.titanic{
   position: absolute;
-  left: -10%;
-  top: 38%;
-  width:37%;
+  left: 30%;
+  top: 17%;
+  width: 20%;
 }
 h2{
   color: #FDFCEE;
@@ -59,6 +59,65 @@ h2{
   top:38%;
 }
 
+
+body {
+  margin: 0;
+  background-color: white;
+  font-size: 30px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: none;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 60%;
+  font-size: 60px;
+  color: white;
+}
+
+/*#navbar a {
+  float: center;
+  display: block;
+  color: red;
+  text-align: center;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}*/
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  cursor: grab;
+  cursor: -o-grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.main img {
+  height: auto;
+  width: 100%;
+}
+
+.button {
+  width: 500px;
+  height: 100px;
+}
 
 
 
