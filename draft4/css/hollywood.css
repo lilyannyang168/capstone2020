@@ -1,182 +1,290 @@
+
 body {
   margin: 2em;
-  background-color: #EEFF30;
+  background-color: white;
   margin-bottom:100px;
 }
-
-h1 {
-  color: black;
-  font-family: chippewa-falls, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 50px;
+html {
+  scroll-behavior: smooth;
 }
-h2{
+#section1 {
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  background-color: none;
+  font-size: 60px;
+  width: 10%;
+  left: 45%;
+  top: 68%;
   color: black;
-  font-family: chippewa-falls, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 30px;
-  text-align: center;
-  
-}
-p{
-  font-family: jaf-domus, sans-serif;
+  font-family: aktiv-grotesk, sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #FF93D1;
-  width:280px;
+  text-decoration: none;
+  -webkit-animation: fadein 1s;
 }
-#arrow{
+a:link{
+  text-decoration: none!important;
+  color: black;
+}
+a:visited{
+  color: black
+}
+#section2 {
+  height: 100%;
   position: absolute;
-  left: 2%;
-  word-spacing: 100vw;
-  top: 1.5%;
+  top: 100%;
+  background-color: none;
+}
+h1 {
+  color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
+}
+h2{
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  text-align: center;
+}
+h3{
+  color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  color: black;
+  width:280px;
+  font-size:20px;
+  font-family: agenda, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.block1 {
+  height: 700%;
+  width: 100%;
+  left:0%;
+  background-color: black;
+  position: absolute;
+  top:300%;
+  opacity:1;
+}
+.block3 {
+  height: 200%;
+  width: 100%;
+  left:0%;
+  background-color: black;
+  position: absolute;
+  top:1300%;
+  opacity:1;
+}
+#x{
+  position: absolute;
+  width:3%;
+  left:10%;
+  top: 1%;
   text-align: right;
+/*  transform: rotate(90deg);*/
+  font-family: bilo, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 28px;
+  transform: scale(1.3, 1);
+  color: white;
+  -webkit-animation: fadein 1s;
+  color: black;
+/*    font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;*/
+}
+@-webkit-keyframes moveup {
+    from { top: 33%; }
+    to   { top: 28%; }
 }
 #title{
   position: absolute;
-  left: 35%;
-  width: 60%;
-  word-spacing: 100vw;
-  top: 3%;
-  right: 10%;
-  text-align: right;
+  left:5%;
+  width: 90%;
+  word-spacing: 1vw;
+  text-align: center;
+  line-height: 1.3;
+  -webkit-animation: fadein 1s;
+  -webkit-animation: moveup 1s;
+  animation-fill-mode: forwards;  
 }
 #image1{
   width: 100%;
   position: absolute;
-  left:0%;
-  top:35%;
+  left: 0%;
+  top: 112%;
+  opacity: 0;
+  opacity: 0;
 }
 #text1{
   position: absolute;
-  top: 68%;
   width: 75%;
   left: 12.5%;
   text-align: left;
+  top: 157%;
+  opacity: 0%;
+  color: black;
+  opacity: 0;
+}
+#rushmore{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 228%;
+  opacity: 0;
 }
 #subtitle1{
   width:80%;
+  left:10%;
   position: absolute;
-  top: 135%;
-  left: 10%;
+  top: 350%;
+  opacity: 0%;
+  color: white;
+}
+#gump{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 415%;
+  opacity: 0;
 }
 #text2{
   position: absolute;
-  top:145%;
+  top:458%;
   width: 75%;
   left: 12.5%;
   text-align: left;
+  opacity: 0;
+  color: white;
 }
-img.rushmore{
+#leo{
+  width: 90%;
   position: absolute;
+  left: 5%;
+  top: 515%;
+  opacity: 0;
+}
+#hepburn{
+  width: 75%;
+  position: absolute;
+  left: 12.5%;
+  top: 612%;
+  opacity: 0;
+}
+#tom{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 673%;
+  opacity: 0;
+}
+#mj{
+  height: 60%;
+  position: absolute;
+  left: 25%;
+  top: 723%;
+  opacity: 0;
+}
+#twilight{
   height: 50%;
-  width: 100%;
-  left: 0%;
-  top: 85%;
-}
-img.gump{
   position: absolute;
-  width: 140%;
-  left: -30%;
-  top: 149%;
+  left: 18%;
+  top: 830%;
+  opacity: 0;
 }
-img.leo{
+#dolly{
+  width: 85%;
   position: absolute;
-
-  width: 100%;
-  left: 0%;
-  top: 187%;
+  left: 7.5%;
+  top: 930%;
+  opacity: 0;
 }
-img.hepburn{
+#subtitle2{
+  width:80%;
+  left:10%;
   position: absolute;
-
-  width: 100%;
-  left: 0%;
-  top: 250%;
+  top: 1043%;
+  opacity: 0%;
+  color: black;
+  opacity: 0;
 }
 #text3{
   position: absolute;
-  top:305%;
-  align: center;
-  left: 47.5px;
-}
-img.tom{
+  width: 75%;
+  left: 12.5%;
   position: absolute;
-  width: 100%;
-  left: 0%;
-  top: 305%;
+  top:1125%;
+  text-align: left;
 }
-img.dolly{
+#locations{
+  width: 85%;
   position: absolute;
-  width: 50%;
-  left: 50%;
-  top: 360%;
-}
-img.mj{
-  position: absolute;
-  width: 40%;
-  left: 5%;
-  top: 330%;
-}
-img.twilight{
-  position: absolute;
-  width: 40%;
-  left: 50%;
-  top: 330%;
-}
-#subtitle2{
-  width:50%;
-  position: absolute;
-  top: 395%;
-  left: 25%;
-}
-img.locations{
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  top: 409%;
+  left: 7.5%;
+  top: 1240%;
+  opacity: 0;
 }
 #subtitle3{
-  width:50%;
+  width:80%;
+  left:10%;
   position: absolute;
-  top: 440%;
-  left: 25%;
+  top: 1350%;
+  opacity: 0%;
+  color: white;
 }
-img.hollywood{
+#hollywood{
+  width: 85%;
   position: absolute;
-  width: 90%;
-  left: 5%;
-  top: 448%;
+  left: 7.5%;
+  top: 1442%;
+  opacity: 0;
 }
-.button {
-  height: 5%;
+
+@-webkit-keyframes scale {
+  from { scale: 1.0; }
+  to   { scale: 3.0; }
+}
+
+
+ @keyframes heartFadeInOut {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1);}
+}
+
+h3 {
+/*  height: 5%;*/
   width: 60%;
-  background-color: #FF93D1;
+/*  background-color: #04067B;*/
   position: absolute;
-  top: 475%;
+  top: 1480%;
   left: 20%;
-  border-style: solid;
+  animation-name: heartFadeInOut; 
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  color: white;
+/*  -webkit-animation: heartbeat 3s;*/
+/*  border-style: solid;
   border-width: 5px;
-  border-color: #FDFCEE;
+  border-color:  #FB170F;*/
 }
-#button{
-  width: 60%;
-  position: absolute;
-  top: 474%;
-  left: 30%;
-  color: #EEFF30;
-  font-size: 20px;
-}
-.bottom {
-  height: 5%;
-  width: 60%;
-  background-color: #EEFF30;
-  position: absolute;
-  top: 480%;
-  left: 20%;
-}
+
+
 
 
 
