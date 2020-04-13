@@ -199,12 +199,14 @@ p{
   position: absolute;
   left: 7.5%;
   top:620%;
+  opacity: 0;
 }
 #nails{
   width: 85%;
   position: absolute;
   left: 7.5%;
   top:660%;
+  opacity: 0;
 }
 #subtitle2{
   width:80%;
