@@ -137,16 +137,14 @@ p{
   animation-fill-mode: forwards;  
 }
 #image1{
-  width: 85%;
+  width: 100%;
   position: absolute;
-  left: 7.5%;
-  top:35%;
+  left: 0%;
   top: 118%;
   opacity: 0%;
 }
 #text1{
   position: absolute;
-  top: 65%;
   width: 75%;
   left: 12.5%;
   text-align: left;
