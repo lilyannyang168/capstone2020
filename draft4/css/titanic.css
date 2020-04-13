@@ -126,9 +126,9 @@ p{
   animation-fill-mode: forwards;  
 }
 #image1{
-  width: 85%;
+  width: 100%;
   position: absolute;
-  left: 7.5%;
+  left: 0%;
   top: 118%;
   opacity: 0%;
 }
