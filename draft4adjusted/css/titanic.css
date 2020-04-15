@@ -1,0 +1,302 @@
+
+body {
+  margin: 2em;
+  background-color: white;
+  margin-bottom:100px;
+}
+html {
+  scroll-behavior: smooth;
+}
+#section1 {
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  background-color: none;
+  font-size: 60px;
+  width: 10%;
+  left: 45%;
+  top: 60%;
+  color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  -webkit-animation: fadein 1s;
+}
+a:link{
+  text-decoration: none!important;
+  color: black;
+}
+a:visited{
+  color: black
+}
+#section2 {
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  background-color: none;
+}
+h1 {
+  color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
+}
+h2{
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  text-align: center;
+}
+h3{
+  color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  color: black;
+  width:280px;
+  font-size:20px;
+  font-family: agenda, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.block1 {
+  height: 600%;
+  width: 100%;
+  left:0%;
+  background-color: black;
+  position: absolute;
+  top:200%;
+  opacity:1;
+}
+.block3 {
+  height: 300%;
+  width: 100%;
+  left:0%;
+  background-color: pink;
+  background-color: black;
+  position: absolute;
+  top:1100%;
+  opacity:1;
+}
+#x{
+  position: absolute;
+  width:3%;
+  left:10%;
+  top: 1%;
+  text-align: right;
+/*  transform: rotate(90deg);*/
+  font-family: bilo, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 28px;
+  transform: scale(1.3, 1);
+  color: white;
+  -webkit-animation: fadein 1s;
+  color: black;
+/*    font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;*/
+}
+@-webkit-keyframes moveup {
+    from { top: 35%; }
+    to   { top: 30%; }
+}
+#title{
+  position: absolute;
+  left:5%;
+  width: 90%;
+  word-spacing: 1vw;
+  text-align: center;
+  line-height: 1.3;
+  -webkit-animation: fadein 1s;
+  -webkit-animation: moveup 1s;
+  animation-fill-mode: forwards;  
+}
+#image1{
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 112%;
+  opacity: 0%;
+}
+#text1{
+  position: absolute;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+  top: 150%;
+  opacity: 0%;
+  color: black;
+}
+#subtitle1{
+  width:80%;
+  left:10%;
+  position: absolute;
+  top: 250%;
+  opacity: 0%;
+  color: white;
+}
+#titanic{
+  width: 65%;
+  position: absolute;
+  left: 17.5%;
+  top: 315%;
+}
+#text2{
+  position: absolute;
+  top: 358%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+  color: white;
+}
+#poster{
+  width: 105%;
+  position: absolute;
+  left: -2.5%;
+  top: 420%;
+  opacity: 0;
+}
+#iceberg{
+  width: 85%;
+  position: absolute;
+  left: 7.5%;
+  top: 465%;
+}
+#text2b{
+  position: absolute;
+  top: 539%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+  opacity: 0;
+  color: white;
+}
+#front{
+  width: 75%;
+  position: absolute;
+  left: 12.5%;
+  top: 608%;
+  opacity: 0;
+}
+#text2c{
+  position: absolute;
+  top: 715%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+  opacity: 100;
+  color: white;
+}
+#outfit{
+  width: 45%;
+  position: absolute;
+  left: 27.5%;
+  top: 750%;
+  opacity: 0;
+}
+#subtitle2{
+  width:80%;
+  left:10%;
+  position: absolute;
+  top: 843%;
+  opacity: 0%;
+  color: black;
+}
+#lego{
+  width: 85%;
+  position: absolute;
+  left: 7.5%;
+  top: 921%;
+  opacity: 0;
+}
+#text3{
+  position: absolute;
+  top:962%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+  opacity: 0;
+}
+#souvenir{
+  width: 85%;
+  position: absolute;
+  left: 7.5%;
+  top: 1032%;
+  opacity: 0;
+}
+#subtitle3{
+  width:80%;
+  left:10%;
+  position: absolute;
+  top: 1150%;
+  opacity: 0%;
+  color: white;
+}
+#titanicsign{
+  width: 140%;
+  position: absolute;
+  left: -20%;
+  top: 1220%;
+  opacity: 0;
+}
+#text3b{
+  position: absolute;
+  top:1320%;
+  width: 75%;
+  left: 12.5%;
+  text-align: left;
+  color: white;
+  opacity: 1;
+}
+
+@-webkit-keyframes scale {
+  from { scale: 1.0; }
+  to   { scale: 3.0; }
+}
+
+
+ @keyframes heartFadeInOut {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1);}
+}
+
+h3 {
+/*  height: 5%;*/
+  width: 60%;
+/*  background-color: #04067B;*/
+  position: absolute;
+  top: 1380%;
+  left: 20%;
+  animation-name: heartFadeInOut; 
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  color: white;
+/*  -webkit-animation: heartbeat 3s;*/
+/*  border-style: solid;
+  border-width: 5px;
+  border-color:  #FB170F;*/
+}
+
+
+
+
+
+
+
+
+
