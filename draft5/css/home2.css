@@ -1,0 +1,30 @@
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+#yellow{
+	-webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+ 	filter: drop-shadow(2px 2px 0 black) 
+    drop-shadow(5px 5px 0 black);
+    position: absolute;
+    left: 10%;
+    top: -5%;
+    width: 80%;
+    opacity: 1;
+    -webkit-animation: fadein 1s;
+}
+#tn:hover{
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+ 	filter: drop-shadow(2px 2px 0 black) 
+    drop-shadow(3px 3px 0 black);
+}
+#tn{
+    position: absolute;
+    left: 58%;
+    top: 53%;
+    width: 11.5%;
+    opacity: 1;
+    -webkit-animation: fadein 1s;
+}

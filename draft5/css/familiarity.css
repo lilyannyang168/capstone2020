@@ -1,0 +1,50 @@
+.block1 {
+  height: 100%;
+  width: 100%;
+  left:0%;
+  background-color: black;
+  position: absolute;
+  top:100%;
+  opacity:1;
+}
+body{
+	background-color: black;
+}
+h1{
+	color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+h3{
+	text-align: center;
+}
+#section1 {
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  background-color: none;
+  font-size: 60px;
+  width: 10%;
+  left: 45%;
+  top: 68%;
+  color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  -webkit-animation: fadein 1s;
+}
+a:link{
+  text-decoration: none!important;
+  color: white;
+}
+a:visited{
+  color: white;
+}
+#section2 {
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  background-color: none;
+}
