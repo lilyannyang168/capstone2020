@@ -1,0 +1,80 @@
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.grid-container{
+  margin: 10% 18% 0 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+.text{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	align-self: center;
+}
+.image{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	align-self: center;
+}
+h1 {
+  color: black;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 60px;
+  width: 60%;
+  -webkit-animation: fadein 1s;
+  top: -30%;
+}
+h2 {
+  color: black;
+  font-family: aktiv-grotesk-regular, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  -webkit-animation: fadein 1s;
+}
+a{
+	text-decoration: none;
+}
+h3:hover {
+  color: #f095bf;
+ }
+h3 {
+  color: black;
+  font-family: aktiv-grotesk-regular, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  -webkit-animation: fadein 1s;
+}
+#left{
+  text-align: left;
+}
+
+#pink{
+/*    position: absolute;
+    left: 58%;
+    top: 53%;
+    width: 11.5%;*/
+    opacity: 1;
+    -webkit-animation: fadein 1s;
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+ 	  filter: drop-shadow(2px 2px 0 black) 
+    drop-shadow(3px 3px 0 black);
+}
+#elements{
+  color: #f095bf;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+}
+#elements:hover{
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
