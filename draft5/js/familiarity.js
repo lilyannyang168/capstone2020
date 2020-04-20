@@ -33,4 +33,35 @@ $(document).ready(function() {
   });
 
 
+  $('#front').mouseover('click touchstart',function(){
+    $("#front").animate({
+     
+      opacity: .2,
+
+    },500);
+  });
+
+  $('#front').mouseover('click touchstart',function(){
+    $(".caption2").animate({
+     
+      opacity: 1,
+
+    },500);
+  });
+  $('#front').mouseleave('click touchstart',function(){
+    $("#front").animate({
+     
+      opacity: 1,
+
+    },500);
+  });
+  $('#front').mouseleave('click touchstart',function(){
+    $(".caption2").animate({
+     
+      opacity: 0,
+
+    },500);
+  });
+
+
 });
