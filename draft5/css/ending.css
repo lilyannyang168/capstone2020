@@ -96,6 +96,17 @@ h3 {
   display: inline-block;
   opacity: 0;
 }
+.dot2{
+  position: absolute;
+  top: 36%;
+  left: 49%;
+  height: 50px;
+  width: 35px;
+  background-color: black;
+  border-radius: 80%;
+  display: inline-block;
+  opacity: 0;
+}
 .info{
   text-align: right;
 }
