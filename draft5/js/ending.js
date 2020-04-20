@@ -12,14 +12,46 @@ $(document).ready(function() {
       opacity: 0,
 
     },0);
+
+    $("#attraction").animate({
+     
+      opacity: 1,
+
+    },250);
+
+    $("#city").animate({
+     
+      opacity: 1,
+
+    },250);
+
+
+    document.getElementById("attraction").innerHTML = "Gum Wall" ;
+    document.getElementById("city").innerHTML = "Seattle, Washington" ;
+
+
   });
 
 	$('.dot1').mouseleave('click touchstart',function(){
     $(".dot1").animate({
      
-      opacity: 1,
+      opacity: 0,
 
-    },0);
+    },250);
+
+    $("#attraction").animate({
+     
+      opacity: 0,
+
+    },250);
+
+    $("#city").animate({
+     
+      opacity: 0,
+
+    },250);
+
+
   });
 
 
