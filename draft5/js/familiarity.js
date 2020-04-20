@@ -33,6 +33,11 @@ $(document).ready(function() {
   });
 
 
+
+
+
+
+
   $('#front').mouseover('click touchstart',function(){
     $("#front").animate({
      
@@ -62,6 +67,74 @@ $(document).ready(function() {
 
     },500);
   });
+
+
+
+
+  $('#car').mouseover('click touchstart',function(){
+    $("#car").animate({
+     
+      opacity: .2,
+
+    },500);
+  });
+
+  $('#car').mouseover('click touchstart',function(){
+    $(".caption3").animate({
+     
+      opacity: 1,
+
+    },500);
+  });
+  $('#car').mouseleave('click touchstart',function(){
+    $("#car").animate({
+     
+      opacity: 1,
+
+    },500);
+  });
+  $('#car').mouseleave('click touchstart',function(){
+    $(".caption3").animate({
+     
+      opacity: 0,
+
+    },500);
+  });
+  
+
+
+    $('#vroom').mouseover('click touchstart',function(){
+    $("#vroom").animate({
+     
+      opacity: .2,
+
+    },500);
+  });
+
+  $('#vroom').mouseover('click touchstart',function(){
+    $(".caption4").animate({
+     
+      opacity: 1,
+
+    },500);
+  });
+  $('#vroom').mouseleave('click touchstart',function(){
+    $("#vroom").animate({
+     
+      opacity: 1,
+
+    },500);
+  });
+  $('#vroom').mouseleave('click touchstart',function(){
+    $(".caption4").animate({
+     
+      opacity: 0,
+
+    },500);
+  });
+
+
+
 
 
 });
