@@ -8,7 +8,24 @@
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 50px;
 }
-
+#x{
+  position: absolute;
+  width:3%;
+  left:7%;
+  top: 1%;
+  text-align: right;
+  font-family: bilo, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 28px;
+  transform: scale(1.3, 1);
+  color: white;
+  -webkit-animation: fadein 1s;
+  color: black;
+}
+#x:hover{
+  color: #f095bf;
+}
 .image{
 	grid-column-start: 1;
 	grid-column-end: 2;
@@ -60,7 +77,6 @@ h3:hover {
     top: 53%;
     width: 11.5%;*/
     opacity: 1;
-    -webkit-animation: fadein 1s;
     -webkit-filter: drop-shadow(1px 1px 0 black)
     drop-shadow(-1px -1px 0 black);
  	filter: drop-shadow(2px 2px 0 black) 
