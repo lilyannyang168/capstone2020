@@ -84,14 +84,36 @@ h3 {
  	  filter: drop-shadow(2px 2px 0 black) 
     drop-shadow(3px 3px 0 black);
 }
-#elements{
-  color: #f095bf;
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 400;
-  font-style: bold;
+
+.dot1{
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  border-radius: 80%;
+  display: inline-block;
+  opacity: 0;
 }
-#elements:hover{
+.info{
+  text-align: right;
+}
+#attraction{
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 700;
   font-style: bold;
+  font-size: 20px;
+  opacity: 0;
 }
+#city{
+  font-family: agenda, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  opacity: 0;
+}
+
+
+
+
