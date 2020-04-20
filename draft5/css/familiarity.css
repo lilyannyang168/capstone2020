@@ -183,23 +183,43 @@ img{
 }
 #front{
 	width: 40%;
-}
-#front:hover{
-	opacity: 20%;
+	opacity: 1;
 }
 .caption2{
 	position: absolute;
 	width: 25%;
-	left: 10%;
+	left: 58%;
 	top: 425px;
 	opacity: 0;
 }
+#outfit{
+	width: 40%;
+
+}
 #car{
 	width: 100%;
-	height: 60%;
+	height: 90%;
+	opacity:1;
 }
-#car:hover{
-	opacity: 20%;
+.caption3{
+	position: absolute;
+	width: 25%;
+	left: 10%;
+	top: 740px;
+	opacity: 0;
+}
+#vroom{
+	width: 100%;
+	height: 85%;
+	opacity:1;
+	left: 5%;
+}
+.caption4{
+	position: absolute;
+	width: 25%;
+	left: 58%;
+	top: 745px;
+	opacity: 0;
 }
 
 
