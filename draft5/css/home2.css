@@ -21,10 +21,13 @@
     drop-shadow(3px 3px 0 black);
 }
 #tn{
-    position: absolute;
+    position: relative;
     left: 58%;
-    top: 53%;
+    top: 348px;
     width: 11.5%;
     opacity: 1;
     -webkit-animation: fadein 1s;
+}
+#map{
+    border: 1px black;
 }
