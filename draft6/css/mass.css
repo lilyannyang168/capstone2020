@@ -1,0 +1,311 @@
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes moveup {
+    from { top: 33%; }
+    to   { top: 30%; }
+}
+@-webkit-keyframes moveup2 {
+    from { top: 59%; }
+    to   { top: 56%; }
+}
+/*.grid-container{
+	margin: 0% 0% 0 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-template-rows:repeat (2, 40px);
+	grid-row-gap: 3px;
+}*/
+.block1 {
+  height: 100%;
+  width: 100%;
+  left:0%;
+  background-color: black;
+  position: absolute;
+  top:100%;
+  opacity:1;
+}
+#mdiv {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border: 1px solid white;
+  position: absolute;
+  left:8%;
+  top: 5%;
+  -webkit-animation: fadein 1s;
+}
+#mdiv:hover {
+  width: 25px;
+  height: 25px;
+  background-color: #f095bf;
+  border: 1px solid white;
+}
+.mdiv {
+  height: 25px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: white;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+.md {
+  height: 25px;
+  width: 2px;
+  background-color: white;
+  transform: rotate(90deg);
+  Z-index: 2;
+}
+body{
+	background-color: black;
+}
+h1{
+  position: absolute;
+  color: white;
+  font-family: agenda, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 60px;
+  width: 40%;
+  -webkit-animation: fadein 1s;
+  left: 30%;
+  text-align: center;
+   -webkit-animation: moveup 1s;
+  animation-fill-mode: forwards; 
+}
+h2{
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  -webkit-animation: fadein 1s;
+  width: 30%;
+  line-height:1.4;
+}
+h3{
+  color: white;
+  font-family: agenda, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-animation: fadein 1s;
+  text-align: center;
+}
+p{
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 13px;
+  font-style: normal;
+  -webkit-animation: fadein 1s;
+  text-align: left;
+}
+#arrow{
+  text-align: center;
+  color: white;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 100;
+  font-size:75px;
+  font-style: thin;
+}
+#arrow:hover{
+	-webkit-filter: drop-shadow(0px 6px 0 #f095bf)
+}
+.subtitle{
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  -webkit-animation: moveup2 1.5s;
+  animation-fill-mode: forwards; 
+  font-size: 18px;
+}
+html {
+  scroll-behavior: smooth;
+}
+#section1 {
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  background-color: none;
+  font-size: 60px;
+  width: 10%;
+  left: 45%;
+  top: 68%;
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  -webkit-animation: fadein 1s;
+}
+a:link{
+  text-decoration: none!important;
+  color: white;
+}
+a:visited{
+  color: white;
+}
+#section2 {
+  height: 2000px;
+  position: absolute;
+  top: 100%;
+  background-color: none;
+  width: 80%;
+  left: 13.25%;
+  align-self: center;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.column {
+  float: right;
+  width: 45%;
+  padding: 5px;
+}
+.column img {
+  margin-top: 2px;
+  vertical-align: middle;
+  height: 90%;
+  vertical-align: center;
+}
+img{
+	align: center;
+}
+#lego{
+	width: 100%;
+	top:50%;
+}
+/*#titanic:hover{
+	opacity: 20%;
+}*/
+.caption1{
+	position: absolute;
+	width: 150px;
+	left: 15%;
+	top: 7%;
+	opacity: 0;
+}
+#souvenir{
+	width: 80%;
+	height: 100%;
+}
+.caption2{
+  position: absolute;
+  width: 200px;
+  left: 60%;
+  top: 5%;
+  opacity: 1;
+}
+#place1{
+  width: 100%;
+  height: 100%;
+}
+#place3{
+	width: 55%;
+  height: 100%;
+}
+.caption3{
+  position: absolute;
+  width: 150px;
+  left: 15%;
+  top: 23.5%;
+  opacity: 0;
+}
+#locations{
+	width: 100%;
+	height: 90%;
+	opacity:1;
+}
+.caption4{
+  position: absolute;
+  width: 150px;
+  left: 15%;
+  top: 38%;
+  opacity: 0;
+}
+#america{
+	width: 40%;
+	height: 100%;
+	opacity:1;
+	left: 5%;
+}
+.caption5{
+  position: absolute;
+  width: 150px;
+  left: 60%;
+  top: 39%;
+  opacity: 0;
+}
+#bear{
+  width: 60%;
+  left: 10%;
+  height: 100%;
+  opacity:1;
+  left: 5%;
+}
+.caption6{
+  position: absolute;
+  width: 200px;
+  top: 55%;
+  left: 15%;
+  opacity: 0;
+}
+#locations2{
+  width: 100%;
+  height: 80%;
+  opacity:1;
+  left: 5%;
+}
+.caption6a{
+  position: absolute;
+  width: 150px;
+  left: 60%;
+  top: 55%;
+  opacity: 0;
+}
+#bubbles{
+  width: 100%;
+  height: 100%;
+  opacity:1;
+  left: 5%;
+}
+.caption7{
+  position: absolute;
+  width: 200px;
+  top: 74%;
+  left: 15%;
+  opacity: 0;
+}
+#nails{
+  width: 100%;
+  height: 100%
+}
+.caption8{
+  position: absolute;
+  width: 250px;
+  top: 73%;
+  left: 56%;
+  opacity: 0;
+}
+#fedex{
+  width: 50%;
+  height: 90%
+}
+#shadow{
+  width: 80%;
+  height: 90%
+}
+/*.caption7{
+  position: absolute;
+  width: 150px;
+  left: 56%;
+  top: 88%;
+  opacity: 0;
+}*/
