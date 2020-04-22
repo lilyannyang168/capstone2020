@@ -1,0 +1,135 @@
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes moveup {
+    from { top: 31.5%; }
+    to   { top: 28.5%; }
+}
+@-webkit-keyframes moveup2 {
+    from { top: 49.5%; }
+    to   { top: 46.5%; }
+}
+.grid-container{
+	margin: 10% 18% 0 8%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 50px;
+}
+#mdiv {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  left:8%;
+  top: 5%;
+  -webkit-animation: fadein 1s;
+}
+#mdiv:hover {
+  width: 25px;
+  height: 25px;
+  background-color: #f095bf;
+  border: 1px solid black;
+}
+.mdiv {
+  height: 25px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: black;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+.md {
+  height: 25px;
+  width: 2px;
+  background-color: black;
+  transform: rotate(90deg);
+  Z-index: 2;
+}
+.image{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	align-self: center;
+}
+.text{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	align-self: center;
+}
+h1 {
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 60px;
+  width: 100%;
+  -webkit-animation: fadein 1s;
+  top: -30%;
+  line-height: 1.25;
+}
+h2 {
+  color: black;
+  font-family: agenda, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  -webkit-animation: fadein 1s;
+}
+a{
+	text-decoration: none;
+}
+h3 {
+  color: black;
+  font-family: aktiv-grotesk-regular, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+  -webkit-animation: fadein 3s;
+  text-align: right;
+  height: 3%;
+  text-decoration: none;
+  position: absolute;
+  left: 78%;
+  top: 74%;
+}
+h3:hover {
+  -webkit-filter: drop-shadow(1px 1px 0 #f095bf)
+  drop-shadow(-2px -2px 0 #f095bf);
+  filter: drop-shadow(2px 2px 0 #f095bf) 
+  drop-shadow(1.5px 1.5px 0 #f095bf);
+ }
+#tn{
+/*    position: absolute;
+    left: 58%;
+    top: 53%;
+    width: 11.5%;*/
+  width: 450px;
+  position: absolute;
+  left: 6%;
+/*  top: 28.5%;*/
+  opacity: 1;
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+  drop-shadow(-2px -2px 0 black);
+ 	filter: drop-shadow(2px 2px 0 black) 
+  drop-shadow(2px 2px 0 black);
+  -webkit-animation: fadein 1s;
+  -webkit-animation: moveup 1s;
+  animation-fill-mode: forwards; 
+}
+#star{
+  position: absolute;
+  left: 34%;
+  top: 46.5%;
+  width: 55px;
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+  drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(2px 2px 0 black) 
+  drop-shadow(2px 2px 0 black);
+  -webkit-animation: fadein 1s;
+  -webkit-animation: moveup2 1s;
+  animation-fill-mode: forwards; 
+}
+
+
+
+
+
