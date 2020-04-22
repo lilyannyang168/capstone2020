@@ -1,0 +1,39 @@
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes moveup {
+    from { top: 3%; }
+    to   { top: -2%; }
+}
+#tn{
+	-webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+ 	filter: drop-shadow(2px 2px 0 black) 
+    drop-shadow(6px 6px 0 black);
+    position: absolute;
+    left: 12.5%;
+    top: -2%;
+    width: 900px;
+    opacity: 1;
+    -webkit-animation: fadein 1s;
+    -webkit-animation: moveup 1s;
+    animation-fill-mode: forwards; 
+}
+#star:hover{
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+ 	filter: drop-shadow(2px 2px 0 black) 
+    drop-shadow(2px 2px 0 black);
+}
+#star{
+    position: absolute;
+    left: 68%;
+    top: 36%;
+    width: 100px;
+    opacity: 1;
+    -webkit-animation: fadein 3s;
+}
+#map{
+    border: 1px black;
+}
