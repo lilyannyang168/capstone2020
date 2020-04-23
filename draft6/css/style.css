@@ -54,7 +54,7 @@ h2 {
   filter: drop-shadow(2px 2px 0 black) 
     drop-shadow(4px 4px 0 black);
     position: absolute;
-    left: 33%;
+    left: 400px;
 /*    top: 18%;*/
     width: 730px;
     opacity: 1;
@@ -70,7 +70,7 @@ h2 {
 }
 #tn{
     position: absolute;
-    left: 69%;
+    left: 840px;
     top: 59%;
     width: 105px;
     opacity: 1;
