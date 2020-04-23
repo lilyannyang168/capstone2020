@@ -6,6 +6,9 @@
     from { top: 3%; }
     to   { top: -2%; }
 }
+/*body{
+  background-color: black;
+}*/
 h3 {
   color: black;
   font-family: aktiv-grotesk-regular, sans-serif;
@@ -51,7 +54,7 @@ h3 {
  	filter: drop-shadow(2px 2px 0 black) 
     drop-shadow(6px 6px 0 black);
     position: absolute;
-    left: 12.5%;
+    left: 160px;
     top: -2%;
     width: 900px;
     opacity: 1;
@@ -123,83 +126,83 @@ h3 {
 }
 #seattle{
   position: absolute;
-  left: 23%;
-  top: 16%;
+  left: 290px;
+  top: 100px;
 }
 #sanluis{
   position: absolute;
-  left: 19%;
-  top: 45%;
+  left: 240px;
+  top: 300px;
 }
 #la{
   position: absolute;
-  left: 21%;
-  top: 51%;
+  left: 270px;
+  top: 350px;
 }
 #calipatria{
   position: absolute;
-  left: 24%;
-  top: 58%;
+  left: 300px;
+  top: 380px;
 }
 #santa{
   position: absolute;
-  left: 36%;
-  top: 53%;
+  left: 450px;
+  top: 360px;
 }
 #bloom{
   position: absolute;
-  left: 51%;
-  top: 29%;
+  left: 630px;
+  top: 200px;
 }
 #stl{
   position: absolute;
-  left: 54%;
-  top: 47%;
+  left: 670px;
+  top: 320px;
 }
 #memphis{
   position: absolute;
-  left: 55%;
-  top: 56%;
+  left: 680px;
+  top: 380px;
 }
 #nash{
   position: absolute;
-  left: 59%;
-  top: 53%;
+  left: 720px;
+  top: 350px;
 }
 #pigeon{
   position: absolute;
-  left: 63%;
-  top: 54%;
+  left: 775px;
+  top: 360px;
 }
 #atlanta{
   position: absolute;
-  left: 62%;
-  top: 60%;
+  left: 760px;
+  top: 390px;
 }
 #orlando{
   position: absolute;
-  left: 68%;
-  top: 76%;
+  left: 830px;
+  top: 500px;
 }
 #niagra{
   position: absolute;
-  left: 68%;
-  top: 33%;
+  left: 830px;
+  top: 220px;
 }
 #baltimore{
   position: absolute;
-  left: 70%;
-  top: 42%;
+  left: 860px;
+  top:280px;
 }
 #atlantic{
   position: absolute;
-  left: 72.5%;
-  top: 39%;
+  left: 890px;
+  top: 270px;
 }
 #ny{
   position: absolute;
-  left: 72%;
-  top: 34%;
+  left: 890px;
+  top: 235px;
 }
 
 
