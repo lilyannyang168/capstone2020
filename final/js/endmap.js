@@ -466,7 +466,7 @@ $('#atlantic').click('click touchstart',function(){
 
     document.getElementById("attraction").innerHTML = "Atlantic City" ;
     document.getElementById("city").innerHTML = "Atlantic City, NJ" ;
-    document.getElementById("blurb").innerHTML = "Next to the beach, there countless brightly-lit attractions such as a Ripley's Believe It or Not! Museum and boardwalk games. " ;
+    document.getElementById("blurb").innerHTML = "Next to the beach, there are countless brightly-lit attractions such as a Ripley's Believe It or Not! Museum and boardwalk games. " ;
 
 
   });
