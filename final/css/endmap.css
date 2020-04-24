@@ -30,8 +30,12 @@ h3 {
 #mdiv:hover {
   width: 25px;
   height: 25px;
-  background-color: #f095bf;
+/*  background-color: #f095bf;*/
   border: 1px solid black;
+  -webkit-filter: drop-shadow(1px 1px 0 #f095bf)
+    drop-shadow(-1px -1px 0 #f095bf);
+  filter: drop-shadow(2px 2px 0 #f095bf) 
+    drop-shadow(1.5px 1.5px 0 #f095bf);
 }
 .mdiv {
   height: 25px;
