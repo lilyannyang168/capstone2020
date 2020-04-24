@@ -203,17 +203,22 @@ h3.caption{
 body{
   background-color: white;
 }
+#container{
+  position: relative;
+}
  #lefty{
   text-align: left;
   position: absolute;
   left: 45%;
-  top: 275%;
+  position: absolute;
+    bottom: -50px;
 }
  #right{
   text-align: right;
   position: absolute;
   left: 48%;
-  top: 275%;
+  position: absolute;
+    bottom: -50px;
 }
 #lefty:hover{
   -webkit-filter: drop-shadow(1px 1px 0 #f095bf)
