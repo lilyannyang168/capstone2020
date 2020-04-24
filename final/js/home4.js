@@ -1,17 +1,34 @@
-$('.familiarity').hover(function() {
-  $('#icon').attr('src', 'svg/icon1.svg');
-}, function() {
-  $('#icon').attr('src', 'svg/icon1.svg');
-});
+console.log('hi');
 
-$('.mass').hover(function() {
-  $('#icon').attr('src', 'svg/icon2.svg');
-}, function() {
-  $('#icon').attr('src', 'svg/icon2.svg');
-});
+$(document).ready(function() {
 
-$('.bright').hover(function() {
-  $('#icon').attr('src', 'svg/icon3.svg');
-}, function() {
-  $('#icon').attr('src', 'svg/icon3.svg');
+$('#right').mouseover('click touchstart',function(){
+
+    $(".rectangle").animate({
+     
+      opacity: .8,
+
+    },);
+
+  });
+
+
+$('#right').mouseleave('click touchstart',function(){
+
+    $(".rectangle").animate({
+     
+      opacity: 0,
+
+    },);
+
+  });
+
+
+
+
+
+
+
+
+
 });
