@@ -1,0 +1,246 @@
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes moveup {
+    from { top: 3%; }
+    to   { top: -2%; }
+}
+/*body{
+  background-color: black;
+}*/
+h3 {
+  color: black;
+  font-family: aktiv-grotesk-regular, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  -webkit-animation: fadein 1s;
+}
+#mdiv {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  left:8%;
+  top: 5%;
+  -webkit-animation: fadein 1s;
+}
+#mdiv:hover {
+  width: 25px;
+  height: 25px;
+  background-color: #f095bf;
+  border: 1px solid black;
+}
+.mdiv {
+  height: 25px;
+  width: 2px;
+  margin-left: 12px;
+  background-color: black;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+.md {
+  height: 25px;
+  width: 2px;
+  background-color: black;
+  transform: rotate(90deg);
+  Z-index: 2;
+}
+#tn{
+	-webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+ 	filter: drop-shadow(2px 2px 0 black) 
+    drop-shadow(6px 6px 0 black);
+    position: absolute;
+    left: 160px;
+    top: -2%;
+    width: 900px;
+    opacity: 1;
+    -webkit-animation: fadein 1s;
+    -webkit-animation: moveup 1s;
+    animation-fill-mode: forwards; 
+}
+#star:hover{
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+ 	filter: drop-shadow(2px 2px 0 black) 
+    drop-shadow(2px 2px 0 black);
+}
+#star{
+    position: absolute;
+    left: 68%;
+    top: 36%;
+    width: 100px;
+    opacity: 1;
+    -webkit-animation: fadein 3s;
+}
+#lefty{
+  text-align: left;
+  position: absolute;
+  left: 9%;
+  top: 79%;
+}
+#lefty:hover{
+  -webkit-filter: drop-shadow(1px 1px 0 #f095bf)
+  drop-shadow(2px 2px 0 #f095bf);
+  filter: drop-shadow(-2px 2px 0 #f095bf) 
+  drop-shadow(1.5px 1.5px 0 #f095bf);
+}
+
+.info{
+  text-align: right;
+}
+#attraction{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 27px;
+  position: absolute;
+  top: 40%;
+  right: 2%;
+  opacity: 0;
+}
+#city{
+  font-family: agenda, sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute;
+  top: 48%;
+  right: 2%;
+  opacity: 0;
+}
+#blurb{
+  font-family: agenda, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  position: absolute;
+  top: 55%;
+  right: 2%;
+  opacity: 0;
+  text-align: left;
+  width: 220px;
+}
+.star{
+    -webkit-animation: fadein 1s;
+    width: 45px;
+}
+.star:hover{
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+  drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(2px 2px 0 black) 
+  drop-shadow(1.5px 1.5px 0 black);
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+#seattle{
+  position: absolute;
+  left: 290px;
+  top: 100px;
+}
+#sanluis{
+  position: absolute;
+  left: 240px;
+  top: 300px;
+}
+#la{
+  position: absolute;
+  left: 270px;
+  top: 350px;
+}
+#calipatria{
+  position: absolute;
+  left: 300px;
+  top: 380px;
+}
+#vegas{
+  position: absolute;
+  left: 345px;
+  top: 355px;
+}
+#santa{
+  position: absolute;
+  left: 450px;
+  top: 360px;
+}
+#bloom{
+  position: absolute;
+  left: 630px;
+  top: 200px;
+}
+#stl{
+  position: absolute;
+  left: 670px;
+  top: 320px;
+}
+#memphis{
+  position: absolute;
+  left: 680px;
+  top: 380px;
+}
+#nash{
+  position: absolute;
+  left: 720px;
+  top: 350px;
+}
+#pigeon{
+  position: absolute;
+  left: 775px;
+  top: 360px;
+}
+#atlanta{
+  position: absolute;
+  left: 760px;
+  top: 390px;
+}
+#orlando{
+  position: absolute;
+  left: 830px;
+  top: 500px;
+}
+#niagra{
+  position: absolute;
+  left: 830px;
+  top: 220px;
+}
+#baltimore{
+  position: absolute;
+  left: 860px;
+  top:280px;
+}
+#atlantic{
+  position: absolute;
+  left: 890px;
+  top: 270px;
+}
+#ny{
+  position: absolute;
+  left: 890px;
+  top: 235px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
