@@ -190,8 +190,24 @@ h3{
   font-style: normal;
   font-size: 22px;
 }
-
-
+.rectangle {
+  height: 80px;
+  width: 250px;
+  background-color: #f095bf;
+  position: absolute;
+  left: 54%;
+  top: 82%;
+  opacity: 0;
+}
+#blurb{
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  position: relative;
+  width: 210px;
+  height: 80px;
+  left: 20px;
+}
 
 
 
