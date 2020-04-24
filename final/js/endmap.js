@@ -25,7 +25,7 @@ $(document).ready(function() {
 
     document.getElementById("attraction").innerHTML = "Gum Wall" ;
     document.getElementById("city").innerHTML = "Seattle, WA" ;
-    document.getElementById("blurb").innerHTML = "For over 20 years, people have visited this old brick wall covered it in chewing gum, making it a notable landmark near Pike Place Market" ;
+    document.getElementById("blurb").innerHTML = "For over 20 years, people have visited this old brick wall and covered it in chewing gum, making it a notable landmark near Pike Place Market" ;
 
 
   });
@@ -113,7 +113,7 @@ $(document).ready(function() {
 
     document.getElementById("attraction").innerHTML = "Salvation Mountain" ;
     document.getElementById("city").innerHTML = "Calipatria, CA" ;
-    document.getElementById("blurb").innerHTML = "A colorfully painted 150 feet wide by 50 feet tall hill that honors religion but also serves as a piece of artwork.  " ;
+    document.getElementById("blurb").innerHTML = "A colorfully painted 150 feet wide by 50 feet tall hill that honors religion but also serves as a piece of artwork or an Instagram photo backdrop.  " ;
 
 
   });
@@ -232,7 +232,7 @@ $(document).ready(function() {
 
     document.getElementById("attraction").innerHTML = "City Museum" ;
     document.getElementById("city").innerHTML = "St. Louis, MO" ;
-    document.getElementById("blurb").innerHTML = "A playground for kids and adults alike that is made mostly from abandoned architectural and industrial objects" ;
+    document.getElementById("blurb").innerHTML = "A playground for kids and adults alike that is made mostly from abandoned architectural and industrial objects." ;
 
 
   });
