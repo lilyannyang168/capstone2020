@@ -511,7 +511,7 @@ console.log('hi');
 
 $(document).ready(function() {
 
-$('#mdiv').click('click touchstart',function(){
+$('#mdiv').mouseover('click touchstart',function(){
 
     $(".rectangle").animate({
      
