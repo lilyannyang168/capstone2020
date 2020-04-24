@@ -25,7 +25,7 @@ $(document).ready(function() {
 
     document.getElementById("attraction").innerHTML = "Gum Wall" ;
     document.getElementById("city").innerHTML = "Seattle, WA" ;
-    document.getElementById("blurb").innerHTML = "For over 20 years, people have visited this old brick wall and covered it in chewing gum, making it a notable landmark near Pike Place Market" ;
+    document.getElementById("blurb").innerHTML = "For over 20 years, people have visited this old brick wall and covered it in chewing gum, making it a notable landmark near Pike Place Market." ;
 
 
   });
@@ -144,7 +144,7 @@ $(document).ready(function() {
 
     document.getElementById("attraction").innerHTML = "Las Vegas Strip" ;
     document.getElementById("city").innerHTML = "Las Vegas, NV" ;
-    document.getElementById("blurb").innerHTML = "A 4.2 mile stretch of neon structures with many of them being replicas of other landmarks" ;
+    document.getElementById("blurb").innerHTML = "A 4.2 mile stretch of neon structures with many of them being replicas of other landmarks." ;
 
 
   });
