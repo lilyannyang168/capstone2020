@@ -37,6 +37,17 @@ h3 {
   filter: drop-shadow(2px 2px 0 #f095bf) 
     drop-shadow(1.5px 1.5px 0 #f095bf);
 }
+#q{
+  position: relative;
+  left: 7px;
+  top: -15px;
+  color: black;
+  font-family: aktiv-grotesk-regular, sans-serif;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+}
+
 .mdiv {
   height: 25px;
   width: 2px;
@@ -143,7 +154,7 @@ h3 {
 #seattle{
   position: absolute;
   left: 290px;
-  top: 100px;
+  top: 114px;
 }
 #sanluis{
   position: absolute;
@@ -225,6 +236,33 @@ h3 {
   left: 890px;
   top: 235px;
 }
+
+.d{
+  text-align: center;
+  font-family: agenda, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+}
+.rectangle {
+  height: 80px;
+  width: 250px;
+  background-color: #F0EA5C;
+  position: absolute;
+  left: 12%;
+  top: 5%;
+  opacity: 0;
+}
+#blur{
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  position: relative;
+  width: 210px;
+  height: 80px;
+  left: 20px;
+}
+
 
 
 

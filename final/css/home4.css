@@ -193,14 +193,14 @@ h3{
 .rectangle {
   height: 80px;
   width: 250px;
-  background-color: #f095bf;
+  background-color: #F0EA5C;
   position: absolute;
   left: 54%;
-  top: 82%;
+  top: 83%;
   opacity: 0;
 }
 #blurb{
-  color: white;
+  color: black;
   font-family: 'Heebo', sans-serif;
   font-size: 16px;
   position: relative;
