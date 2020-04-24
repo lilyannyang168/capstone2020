@@ -502,8 +502,48 @@ $('#ny').click('click touchstart',function(){
 
 
 
+});
+
+
+
+
+console.log('hi');
+
+$(document).ready(function() {
+
+$('#mdiv').click('click touchstart',function(){
+
+    $(".rectangle").animate({
+     
+      opacity: .8,
+
+    },);
+
+  });
+
+
+$('#mdiv').mouseleave('click touchstart',function(){
+
+    $(".rectangle").animate({
+     
+      opacity: 0,
+
+    },);
+
+  });
+
+
+
+
+
 
 
 
 
 });
+
+
+
+
+
+
