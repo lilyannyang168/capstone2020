@@ -25,7 +25,7 @@ $(document).ready(function() {
 
     document.getElementById("attraction").innerHTML = "Gum Wall" ;
     document.getElementById("city").innerHTML = "Seattle, WA" ;
-    document.getElementById("blurb").innerHTML = "For over 20 years, people have visited this old brick wall and covered it in chewing gum, making it a notable landmark near Pike Place Market" ;
+    document.getElementById("blurb").innerHTML = "For over 20 years, people have visited this old brick wall covered it in chewing gum, making it a notable landmark near Pike Place Market" ;
 
 
   });
@@ -84,7 +84,7 @@ $(document).ready(function() {
 
     document.getElementById("attraction").innerHTML = "Hollywood" ;
     document.getElementById("city").innerHTML = "Los Angeles, CA" ;
-    document.getElementById("blurb").innerHTML = "It is known for its Walk of Fame with stars representing notable celebrities. The Hollywood sign is also frequently admired." ;
+    document.getElementById("blurb").innerHTML = "It is known for its Walk of Fame with stars representing notable celebrities. The Hollywood sign is also a frequently admired symbol of LA." ;
 
 
   });
@@ -202,7 +202,7 @@ $(document).ready(function() {
 
     document.getElementById("attraction").innerHTML = "Mall of America" ;
     document.getElementById("city").innerHTML = "Bloomington, MN" ;
-    document.getElementById("blurb").innerHTML = "The biggest mall in America that has a Nickolodeon-themed amusement park in the middle of it." ;
+    document.getElementById("blurb").innerHTML = "The biggest mall in America that has a Nickelodeon-themed amusement park in the middle of it." ;
 
 
   });
@@ -466,7 +466,7 @@ $('#atlantic').click('click touchstart',function(){
 
     document.getElementById("attraction").innerHTML = "Atlantic City" ;
     document.getElementById("city").innerHTML = "Atlantic City, NJ" ;
-    document.getElementById("blurb").innerHTML = "Its boardwalk has countless brightly-lit attractions such as a Ripley's Believe It or Not! Museum. " ;
+    document.getElementById("blurb").innerHTML = "Next to the beach, there countless brightly-lit attractions such as a Ripley's Believe It or Not! Museum and boardwalk games. " ;
 
 
   });
@@ -493,7 +493,7 @@ $('#ny').click('click touchstart',function(){
 
     document.getElementById("attraction").innerHTML = "Times Square" ;
     document.getElementById("city").innerHTML = "New York, NY" ;
-    document.getElementById("blurb").innerHTML = "An overwhelming conglomerate of consumerism and fun with a Madame Tussauds, Hershey's Chocolate World, and every other chain attraction imaginable. Its 55 giant LED displays never turn off. " ;
+    document.getElementById("blurb").innerHTML = "An overwhelming conglomerate of consumerism and fun with a Madame Tussauds, a Hershey's Chocolate World, and every other chain attraction imaginable. Its 55 giant LED displays and countless lights never turn off. " ;
 
 
   });
