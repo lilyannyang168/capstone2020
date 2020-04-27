@@ -3,8 +3,8 @@
     to   { opacity: 1; }
 }
 @-webkit-keyframes moveup {
-    from { top: 20%; }
-    to   { top: 15%; }
+    from { top: 10%; }
+    to   { top: 0%; }
 }
 @-webkit-keyframes moveup2 {
     from { top: 64%; }
@@ -58,8 +58,8 @@ h2 {
     top: 0%;
     width: 730px;
     opacity: 1;
-/*    -webkit-animation: fadein 1s;
-    -webkit-animation: moveup 1s;*/
+    -webkit-animation: fadein 1s;
+    -webkit-animation: moveup 1s;
     animation-fill-mode: forwards; 
 }
 #tn:hover{
