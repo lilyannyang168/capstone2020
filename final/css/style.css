@@ -54,12 +54,12 @@ h2 {
   filter: drop-shadow(2px 2px 0 black) 
     drop-shadow(4px 4px 0 black);
     position: absolute;
-    left: 400px;
-/*    top: 18%;*/
+    left: 0%
+    top: 0%;
     width: 730px;
     opacity: 1;
-    -webkit-animation: fadein 1s;
-    -webkit-animation: moveup 1s;
+/*    -webkit-animation: fadein 1s;
+    -webkit-animation: moveup 1s;*/
     animation-fill-mode: forwards; 
 }
 #tn:hover{
@@ -69,9 +69,9 @@ h2 {
     drop-shadow(1.5px 1.5px 0 black);
 }
 #tn{
-    position: absolute;
-    left: 840px;
-    top: 59%;
+    position: relative;
+    left: 440px;
+    top: 292.5px;
     width: 105px;
     opacity: 1;
     -webkit-animation: fadein 3s;
@@ -85,6 +85,12 @@ h2 {
 	top: 5%;
 	scale: .3;
 }*/
+.map{
+  position: absolute;
+  width: 100px;
+  left: 37%;
+  top: 20%;
+}
 
 
 
